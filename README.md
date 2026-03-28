@@ -1,25 +1,23 @@
 # Binary Prediction with a Rainfall Dataset
 
-## Overview
+![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)
+![Notebook](https://img.shields.io/badge/notebook-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-This repository contains a notebook solution for a binary classification task on rainfall-related data.
+## What it is
 
-The project focuses on building and evaluating a predictive model from end to end, including preprocessing, feature handling, model training, and submission generation.
+A notebook-based binary classification workflow on rainfall-related tabular data.
 
-## Repository Structure
+## How to run
 
-- `binary-prediction-with-a-rainfall-dataset.ipynb` — full notebook workflow
+1. Create a Python environment.
+2. Install notebook dependencies (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `jupyter`).
+3. Open and run `binary-prediction-with-a-rainfall-dataset.ipynb`.
 
-## How to Run
+## Files
 
-1. Create and activate a Python environment.
-2. Install required packages used in the notebook.
-3. Open and run `binary-prediction-with-a-rainfall-dataset.ipynb` in Jupyter or VS Code.
-
-## Notes
-
-- Keep dataset files local (not committed) when they are large.
-- Use the notebook output to export predictions/submissions.
+- `binary-prediction-with-a-rainfall-dataset.ipynb` — full notebook
+- `README.md` — quick project guide
 
 ## License
 
