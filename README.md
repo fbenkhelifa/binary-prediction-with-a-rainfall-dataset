@@ -34,7 +34,7 @@ powershell -ExecutionPolicy Bypass -File scripts/download_data.ps1
 
 ## Usage
 
-Run `binary-prediction-with-a-rainfall-dataset.ipynb` top-to-bottom in Jupyter/VS Code.
+Run `notebooks/rainfall-binary-prediction.ipynb` top-to-bottom in Jupyter/VS Code.
 
 Dataset files are expected under `data/raw/kaggle_s5e3/`.
 
@@ -47,9 +47,14 @@ binary-prediction-with-a-rainfall-dataset/
 │   ├── raw/
 │   │   └── kaggle_s5e3/
 │   └── processed/
+├── notebooks/
+│   └── rainfall-binary-prediction.ipynb
+├── reports/
+│   └── .gitkeep
+├── src/
+│   └── .gitkeep
 ├── scripts/
 │   └── download_data.ps1
-├── binary-prediction-with-a-rainfall-dataset.ipynb
 ├── README.md
 ├── .gitignore
 └── LICENSE
