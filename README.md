@@ -41,8 +41,7 @@ binary-prediction-with-a-rainfall-dataset/
 ├── binary-prediction-with-a-rainfall-dataset.ipynb
 ├── README.md
 ├── .gitignore
-├── LICENSE
-└── MIGRATION_NOTE.md
+└── LICENSE
 ```
 
 ## Limitations
