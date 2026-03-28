@@ -28,16 +28,27 @@ python -m venv .venv
 # Windows PowerShell
 .\.venv\Scripts\Activate.ps1
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+# optional: install kaggle CLI and configure ~/.kaggle/kaggle.json
+powershell -ExecutionPolicy Bypass -File scripts/download_data.ps1
 ```
 
 ## Usage
 
 Run `binary-prediction-with-a-rainfall-dataset.ipynb` top-to-bottom in Jupyter/VS Code.
 
+Dataset files are expected under `data/raw/kaggle_s5e3/`.
+
 ## Project structure
 
 ```text
 binary-prediction-with-a-rainfall-dataset/
+├── data/
+│   ├── README.md
+│   ├── raw/
+│   │   └── kaggle_s5e3/
+│   └── processed/
+├── scripts/
+│   └── download_data.ps1
 ├── binary-prediction-with-a-rainfall-dataset.ipynb
 ├── README.md
 ├── .gitignore
@@ -47,6 +58,7 @@ binary-prediction-with-a-rainfall-dataset/
 ## Limitations
 
 - Notebook-only implementation
+- Competition data is not redistributed in this repository
 - No automated tests or CI pipeline
 
 ## Roadmap
